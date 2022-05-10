@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name RS-232-Yost-DTE-rescue)(type Legacy)(uri "${KIPRJMOD}/RS-232 Yost DTE-rescue.lib")(options "")(descr ""))
+)
