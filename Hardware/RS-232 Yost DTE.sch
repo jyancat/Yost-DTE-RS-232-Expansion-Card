@@ -19,7 +19,7 @@ U 1 1 627466DD
 P 2100 2350
 F 0 "P1" H 2207 3217 50  0000 C CNN
 F 1 "USB_C_Plug_USB2.0" H 2207 3126 50  0000 C CNN
-F 2 "SnapEDA Library:GCT_USB4155-03-C_REVA" H 2250 2350 50  0001 C CNN
+F 2 "Expansion_Card:USB_C_Plug_Molex_105444" H 2250 2350 50  0001 C CNN
 F 3 "https://www.usb.org/sites/default/files/documents/usb_type-c.zip" H 2250 2350 50  0001 C CNN
 	1    2100 2350
 	1    0    0    -1  

@@ -1,14 +1,14 @@
 (export (version D)
   (design
-    (source "C:\\Users\\Josh\\Documents\\ExpansionCards-main\\Design Files\\USB-C to RS-232 RJ45\\RS-232 Yost DTE\\RS-232 Yost DTE.sch")
-    (date "9/05/2022 9:27:05 PM")
+    (source "C:\\Users\\Josh\\Documents\\ExpansionCards-main\\Design Files\\RS-232 Yost DTE\\Hardware\\RS-232 Yost DTE.sch")
+    (date "28/05/2022 6:14:14 PM")
     (tool "Eeschema (5.1.10)-1")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
-        (title)
-        (company)
-        (rev)
-        (date)
+        (title "RS-232 Yost DTE")
+        (company "Josh Cook")
+        (rev A)
+        (date 2022-05-09)
         (source "RS-232 Yost DTE.sch")
         (comment (number 1) (value ""))
         (comment (number 2) (value ""))
@@ -17,7 +17,7 @@
   (components
     (comp (ref P1)
       (value USB_C_Plug_USB2.0)
-      (footprint "SnapEDA Library:GCT_USB4155-03-C_REVA")
+      (footprint Expansion_Card:USB_C_Plug_Molex_105444)
       (datasheet https://www.usb.org/sites/default/files/documents/usb_type-c.zip)
       (libsource (lib Connector) (part USB_C_Plug_USB2.0) (description "USB 2.0-only Type-C Plug connector"))
       (sheetpath (names /) (tstamps /))
@@ -411,7 +411,7 @@
     (library (logical Device)
       (uri "C:\\Program Files\\KiCad\\share\\kicad\\library/Device.lib"))
     (library (logical RS-232-Yost-DTE-rescue)
-      (uri "C:\\Users\\Josh\\Documents\\ExpansionCards-main\\Design Files\\USB-C to RS-232 RJ45\\RS-232 Yost DTE/RS-232 Yost DTE-rescue.lib"))
+      (uri "C:\\Users\\Josh\\Documents\\ExpansionCards-main\\Design Files\\RS-232 Yost DTE\\Hardware/RS-232 Yost DTE-rescue.lib"))
     (library (logical SamacSys_Parts)
       (uri C:/Users/Josh/Documents/kicad/Libray/SamacSys_Parts.lib)))
   (nets
